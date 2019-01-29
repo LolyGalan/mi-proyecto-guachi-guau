@@ -1,0 +1,19 @@
+
+
+#amor  {
+    height: 50px;
+    background: red;
+    left: 10rem;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+ 
+  #amor :before {
+    top: 3;
+    left: 325px;
+  }
+  
+  #amor :after {
+    top: -25px;
+  }

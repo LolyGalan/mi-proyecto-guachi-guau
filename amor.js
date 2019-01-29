@@ -51,7 +51,7 @@ $.ajax({
         var total = 0;
         //inicializamos una variable contador
         const respuestas = Object.values(data);
-        a//a la variable respuesta le metemos el array que hemos obtenido con la información
+        //a la variable respuesta le metemos el array que hemos obtenido con la información
         respuestas.forEach(function(element) {
             //para cada posición del array 
             total = total + parseInt(element.edad);

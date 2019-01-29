@@ -1,12 +1,6 @@
 $(document).ready(function(){
   
-  const $inputsConFondo = $('#name, #edad, #signos, #correspondido, #veces');
-  $inputsConFondo.addClass('focusDisabled');
-  
   const $submit = $('input[type="submit"]');
-  $submit.attr('disabled','disabled').addClass("disabled");
-  
-  const $fetch = $('#fetch');
   
   $submit.click(function(e){
     e.preventDefault();

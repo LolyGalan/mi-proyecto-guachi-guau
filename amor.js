@@ -10,7 +10,7 @@ $(document).ready(function(){
     edad: $('#edad').val(),
     signos: $('#signos').val(),
     correspondido: $('#correspondido').val(),
-    veces: $('#veces').val(),
+    veces: parseInt($('#veces').val()),
     }
 
     $.ajax({
